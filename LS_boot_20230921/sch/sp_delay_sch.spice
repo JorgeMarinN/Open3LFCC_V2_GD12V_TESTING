@@ -1,0 +1,16 @@
+** sch_path: /foss/designs/Open3LFCC_V2_GD12V/LS_boot_20230921/sch/sp_delay.sch
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt sp_delay VCC VSS VIN VOUT
+.iopin VCC
+.iopin VSS
+.iopin VIN
+.iopin VOUT
+x10[0] VIN VSS VSS VCC VCC n2 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[1] n2 VSS VSS VCC VCC n3 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[2] n3 VSS VSS VCC VCC n4 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[3] n4 VSS VSS VCC VCC n5 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[4] n5 VSS VSS VCC VCC n6 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[5] n6 VSS VSS VCC VCC VOUT sky130_fd_sc_hd__clkdlybuf4s50_2
+.ends
+.end

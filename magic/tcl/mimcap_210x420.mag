@@ -1,0 +1,28 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1700054968
+<< checkpaint >>
+rect -3970 -3980 4766 4524
+<< pwell >>
+rect 42 21 793 195
+<< locali >>
+rect 210 215 373 265
+<< metal1 >>
+rect 276 496 352 592
+rect 628 496 704 592
+rect 276 -48 352 48
+rect 628 -48 704 48
+use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1691438616
+transform 1 0 0 0 1 0
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1691438616
+transform 1 0 352 0 1 0
+box -38 -48 314 592
+use sky130_fd_sc_hd__tap_1  sky130_fd_sc_hd__tap_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1691438616
+transform 1 0 704 0 1 0
+box -38 -48 130 592
+<< end >>

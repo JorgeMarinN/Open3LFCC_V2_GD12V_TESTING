@@ -1,0 +1,42 @@
+** sch_path: /foss/designs/Open3LFCC_V2_GD12V/LS_boot_20230921/sch/sp_delay_top.sch
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.subckt sp_delay_top VCC VSS VIN VOUT
+*.PININFO VCC:B VSS:B VIN:B VOUT:B
+x10[0] VIN VSS VSS VCC VCC n2 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[1] n2 VSS VSS VCC VCC n3 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[2] n3 VSS VSS VCC VCC n4 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[3] n4 VSS VSS VCC VCC n5 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[4] n5 VSS VSS VCC VCC n6 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[5] n6 VSS VSS VCC VCC n7 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[6] n7 VSS VSS VCC VCC n8 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[7] n8 VSS VSS VCC VCC n9 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[8] n9 VSS VSS VCC VCC n10 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[9] n10 VSS VSS VCC VCC n11 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[10] n11 VSS VSS VCC VCC n12 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[11] n12 VSS VSS VCC VCC n13 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[12] n13 VSS VSS VCC VCC n14 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[13] n14 VSS VSS VCC VCC n15 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[14] n15 VSS VSS VCC VCC n16 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[15] n16 VSS VSS VCC VCC n17 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[16] n17 VSS VSS VCC VCC n18 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[17] n18 VSS VSS VCC VCC n19 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[18] n19 VSS VSS VCC VCC n20 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[19] n20 VSS VSS VCC VCC n21 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[20] n21 VSS VSS VCC VCC n22 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[21] n22 VSS VSS VCC VCC n23 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[22] n23 VSS VSS VCC VCC n24 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[23] n24 VSS VSS VCC VCC n25 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[24] n25 VSS VSS VCC VCC n26 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[25] n26 VSS VSS VCC VCC n27 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[26] n27 VSS VSS VCC VCC n28 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[27] n28 VSS VSS VCC VCC n29 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[28] n29 VSS VSS VCC VCC n30 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[29] n30 VSS VSS VCC VCC n31 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[30] n31 VSS VSS VCC VCC n32 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[31] n32 VSS VSS VCC VCC n33 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[32] n33 VSS VSS VCC VCC n34 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[33] n34 VSS VSS VCC VCC n35 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[34] n35 VSS VSS VCC VCC n36 sky130_fd_sc_hd__clkdlybuf4s50_2
+x10[35] n36 VSS VSS VCC VCC VOUT sky130_fd_sc_hd__clkdlybuf4s50_2
+.ends
+.end

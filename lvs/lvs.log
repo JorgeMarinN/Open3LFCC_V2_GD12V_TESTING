@@ -1,0 +1,85 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+
+Class boot_ls_stage (0):  Merged 4 series devices.
+Class boot_ls_stage (1):  Merged 11 parallel devices.
+Class boot_ls_stage (1):  Merged 4 series devices.
+Subcircuit summary:
+Circuit 1: boot_ls_stage                   |Circuit 2: boot_ls_stage                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (8)           |sky130_fd_pr__pfet_g5v0d10v5 (8)           
+sky130_fd_pr__nfet_g5v0d10v5 (15->4)       |sky130_fd_pr__nfet_g5v0d10v5 (15->4)       
+sky130_fd_pr__res_xhigh_po_0p35 (5->1)     |sky130_fd_pr__res_xhigh_po_0p35 (5->1)     
+Number of devices: 13                      |Number of devices: 13                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: boot_ls_stage                   |Circuit 2: boot_ls_stage                   
+-------------------------------------------|-------------------------------------------
+V5v0LS                                     |(no matching pin)                          
+VFE                                        |(no matching pin)                          
+VRE                                        |(no matching pin)                          
+GND                                        |(no matching pin)                          
+Vboot                                      |(no matching pin)                          
+SET                                        |(no matching pin)                          
+RESET                                      |(no matching pin)                          
+V5v0LS                                     |(no matching pin)                          
+GND                                        |(no matching pin)                          
+Vboot                                      |(no matching pin)                          
+VFE                                        |(no matching pin)                          
+VRE                                        |(no matching pin)                          
+SET                                        |(no matching pin)                          
+RESET                                      |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Error:  Connected pin (no pins) (node -2) did not get ordered!
+Ports of boot_ls_stage are unordered.  Ordering will be arbitrary.
+Cell pin lists for boot_ls_stage and boot_ls_stage altered to match.
+Device classes boot_ls_stage and boot_ls_stage are equivalent.
+
+Final result: Top level cell failed pin matching.
